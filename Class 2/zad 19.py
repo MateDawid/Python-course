@@ -1,0 +1,9 @@
+number = int(input("Podaj liczbę: "))
+is_prime = True
+for i in range(2,number):
+    if number%i == 0:
+        is_prime = False
+if is_prime == True:
+    print("Liczba pierwsza.")
+else:
+    print("Liczba złożona.")

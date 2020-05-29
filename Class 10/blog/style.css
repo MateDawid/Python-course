@@ -1,0 +1,28 @@
+body{
+    background: goldenrod
+}
+h1{
+    color: darkgreen;
+    border: solid 1px white;
+    padding: 20px;
+    margin: 30px;
+    width: 400px;
+}
+p{
+    color: darkred;
+}
+
+p.theory{
+    color: chartreuse
+}
+footer{
+    display: none;
+}
+article{
+    border: solid 2px black;
+    font-size: large;
+    padding: 20px;
+    margin: 30px;
+    width: 400px;
+    
+}

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Formularze</title>
+</head>
+<body>
+<!-- Wprowadzanie danych przez uzytkownika, formularz to odpowiednik inputu z Pythona-->
+<form action="/result">
+    <label>Podaj imię: </label>
+    <!-- 
+        stworzenie zmiennej w Pythonie - name to "funkcja" do prowadzania nazwy zmiennej
+        name to nazwa zmiennej
+        protokół HTTP
+        w HTTP na zmienną mówi się parametr
+    -->
+    <input type="text" name="name" required>
+    <label>Podaj nazwisko: </label>
+    <input type="text" name="surname">
+    <input type="submit" value="Dodaj">
+</form>
+</body>
+</html>

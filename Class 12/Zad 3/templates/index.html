@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Zadanie 3</title>
+    </head>
+    <body>
+        <h1>Quiz</h1>
+        <form action="/result" method="post">
+        {% for question in questions %}
+        <p>{{question.title}}</p>
+        <select name="{{question.id}}">
+            <option value ="tak">Tak</option>
+            <option value="nie">Nie</option>
+        </select>
+        {% endfor %}
+        <input type="submit" value="Pokaż wynik">
+        </form>
+
+    </body>
+</html>

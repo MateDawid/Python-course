@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+    </head>
+    <body>
+        <h1> Twoja liczba punktów to {{points}}.</h1>
+        <h3>Poprane odpowiedzi to:</h3>
+        {% for question in questions %}
+        <p>{{question}}</p>
+        {%endfor%}
+    </body>
+</html>

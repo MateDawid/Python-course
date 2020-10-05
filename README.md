@@ -7,26 +7,18 @@ Opis tematów realizowanych na poszczególnych zajęciach.
 * Class 2
 > Pętle while i for, turtle
 * Class 3
-> 
+> Kontynuacja pętli, calendar, request, BeautifulSoup (zad 16)
 * Class 4
-> 
-* Class 5
-> 
-* Class 6
-> 
+> Listy,słowniki, tuple, pylab (zad 14)
 * Class 7
-> 
+> Funkcje
 * Class 8
-> 
+> Metody, odczytywanie danych z API (zad 11), BeautifulSoup (zad 12), JSON, pandas,
 * Class 9
-> 
+> Klasy, pandas, datetime, relativedelta, 
 * Class 10
-> 
+> Podstawy HTML i CSS
 * Class 11
-> 
+> Formularz we Flasku
 * Class 12
-> 
-
-## To Do:
-* Comprehensions - kreatory list, słowników i zbiorów
-* tensorflof, scipy, cv2, pillow, h5py, keras 
+> Logowanie, quiz i tabela we Flasku
